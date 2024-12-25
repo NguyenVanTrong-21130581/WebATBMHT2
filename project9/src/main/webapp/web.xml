@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- Servlet Mapping -->
+    
+	<welcome-file-list>
+		<welcome-file>shop.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+        <servlet-name>OrderControl</servlet-name>
+        <servlet-class>controller.OrderControl</servlet-class>
+        <multipart-config>
+            <!-- Cấu hình đường dẫn lưu trữ tạm thời cho file tải lên -->
+            <location>/tmp</location>
+            <!-- Kích thước tối đa cho file tải lên -->
+            <max-file-size>10000000</max-file-size> <!-- 10MB -->
+            <max-request-size>10000000</max-request-size>
+            <file-size-threshold>5000000</file-size-threshold> <!-- 5MB -->
+        </multipart-config>
+    </servlet>
+</web-app>

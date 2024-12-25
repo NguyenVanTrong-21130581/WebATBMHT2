@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/main/java/context/DBcontext.java=UTF-8
+encoding//src/main/java/controller/AddControl.java=UTF-8
+encoding//src/main/java/controller/DownloadPrivateKeyServlet.java=UTF-8
+encoding//src/main/java/controller/GenerateKeyPairServlet.java=UTF-8
+encoding//src/main/java/controller/ManagerCartControl.java=UTF-8
+encoding//src/main/java/controller/OrderControl.java=UTF-8
+encoding//src/main/java/controller/OrderListControl.java=UTF-8
+encoding//src/main/java/controller/SignKeyControl.java=UTF-8
+encoding//src/main/java/controller/SignOrderControl.java=UTF-8
+encoding//src/main/java/controller/VerifyOTPServlet.java=UTF-8
+encoding//src/main/java/controller/VetifyDataControl.java=UTF-8
+encoding//src/main/java/dao/Dao.java=UTF-8
+encoding//src/main/webapp/about.jsp=UTF-8
+encoding//src/main/webapp/index.jsp=UTF-8
+encoding//src/main/webapp/shop-single.jsp=UTF-8
+encoding/<project>=windows-1252
